@@ -27,7 +27,7 @@
   - [ ] **Veebiannetused: kas ja kuidas saaksime annetusi koguda?**
     - Kas tahame üldse annetusi koguda?
     - Milliseid platvorme kasutada? (Stripe, PayPal, Wise, pangalink?)
-    - Kas võimaldada rahvusvahelisi annetusi? (veebikoosolekul osalejad võivad tahta toetada)
+    - Veebikoosolekul osalejad (eesti inimesed, kes ei saa Kuressaarde) võivad tahta toetada
     - Kes haldab rahalisi tehinguid?
     - Läbipaistvus ja aruandlus
     - Milleks annetusi kasutada? (hosting, domeeninimi, materjalide trükkimine?)
