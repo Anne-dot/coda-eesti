@@ -1,0 +1,39 @@
+# Microsoft Office
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pptx
+*.ppt
+
+# Node
+node_modules/
+.npm
+.yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Astro
+dist/
+.astro/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
