@@ -52,32 +52,48 @@
 
 - [ ] **Jaga uurimustööd** - Saada Facebook gruppi AI tehtud uurimustöö
 
-### Arendus
+### PRIORITEET 2: Veebilehe Tehniline Alustamine (EI VAJA coda.org nõusolekut)
+
+**Võid alustada kohe paralleelselt konsultatsioonidega!**
 
 - [ ] **Astro projekti setup**
   - [ ] npm init astro
   - [ ] Tailwind CSS seadistamine
   - [ ] Shadcn/ui integreerimine
   - [ ] Projekti struktuur
-
-- [ ] **Sveltia CMS paigaldamine**
-  - [ ] Config fail (admin/config.yml)
-  - [ ] GitHub OAuth setup
-  - [ ] Kasutajate õigused
+  - **Märkus:** Tehniline setup ei vaja CoDA luba
 
 - [ ] **CODA.org disaini analüüs**
   - [ ] Värvikoodid
   - [ ] Fondid
   - [ ] Paigutus ja komponendid
+  - **Märkus:** Disaini uurimine ja inspireerimine on OK
 
-- [ ] **Prototüüp**
-  - [ ] Avaleht
-  - [ ] Kontaktide leht
-  - [ ] Taastumismaterjalide leht
+- [ ] **Leheküljed, mis EI VAJA CoDA materjale:**
+  - [ ] Kontaktide leht (ainult koosoleku info - saame pärast registreerimist)
+  - [ ] "Meist" / "About" leht (üldine info grupi kohta)
+  - [ ] FAQ leht (üldised küsimused)
+  - [ ] Navigatsioon ja struktuuri
+  - [ ] Footer ja header
+  - **Märkus:** Need lehed võid teha valmis ja deployda kohe
+
+- [ ] **Leheküljed, mis VAJAVAD CoDA materjale (oota luba!):**
+  - [ ] ❌ 12 Sammu leht (vajab tõlkimisluba)
+  - [ ] ❌ 12 Traditsiooni leht (vajab tõlkimisluba)
+  - [ ] ❌ Päevatekstid / meditations (vajab tõlkimisluba)
+  - [ ] ❌ Kirjanduse tsitaadid (vajab tõlkimisluba)
+  - **Märkus:** Need jäta placeholder'iteks või "Coming soon", kuni saad loa
+
+- [ ] **Sveltia CMS paigaldamine**
+  - [ ] Config fail (admin/config.yml)
+  - [ ] GitHub OAuth setup
+  - [ ] Kasutajate õigused
+  - **Märkus:** CMS setup ei vaja CoDA luba
 
 - [ ] **GitHub Actions CI/CD**
   - [ ] Deploy workflow
   - [ ] Lighthouse CI
+  - **Märkus:** Deploy'mist võid teha kohe, kui on midagi näidata
 
 ### Dokumentatsioon
 
