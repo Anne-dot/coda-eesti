@@ -24,6 +24,13 @@
   - [ ] Kellel on õigus kasutada grupi e-maili aadressi?
   - [ ] Kes räägib piisavalt hästi inglise keelt vormide täitmiseks?
   - [ ] Kas taotleme $1000 USD toetust või mitte?
+  - [ ] **Veebiannetused: kas ja kuidas saaksime annetusi koguda?**
+    - Kas tahame üldse annetusi koguda?
+    - Milliseid platvorme kasutada? (Stripe, PayPal, Wise, pangalink?)
+    - Kas võimaldada rahvusvahelisi annetusi? (veebikoosolekul osalejad võivad tahta toetada)
+    - Kes haldab rahalisi tehinguid?
+    - Läbipaistvus ja aruandlus
+    - Milleks annetusi kasutada? (hosting, domeeninimi, materjalide trükkimine?)
 
 - [ ] **Registreerige koosolek coda.org lehel** (PRIORITEET KÕRGE)
   - Link: https://coda.org/find-a-meeting/add-new-meeting/
@@ -55,6 +62,12 @@
 ### PRIORITEET 2: Veebilehe Tehniline Alustamine (EI VAJA coda.org nõusolekut)
 
 **Võid alustada kohe paralleelselt konsultatsioonidega!**
+
+- [ ] **Projekti kausta struktuur**
+  - [ ] Korrasta olemasolevad failid loogiliselt
+  - [ ] Määra kaustade struktuur (docs, src, public jne)
+  - [ ] Liiguta failid õigetesse kaustadesse
+  - **Märkus:** Tee enne Astro setupi!
 
 - [ ] **Astro projekti setup**
   - [ ] npm init astro
