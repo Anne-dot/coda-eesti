@@ -63,6 +63,7 @@ In service,
 
 ---
 
-**Status:** Draft - ready to personalize and send
+**Status:** ✅ SENT - 2025-10-31
 **Created:** 2025-10-31
 **Purpose:** Gather information for website planning before formal translation application
+**Awaiting:** Response from tmc@coda.org

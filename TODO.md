@@ -4,7 +4,9 @@
 
 ## ⏳ Käimasolevad
 
-*Hetkel puuduvad*
+- **Ootan TMC vastust** - Saatsin e-maili tmc@coda.org (2025-10-31)
+  - 7 küsimust tõlkimisprotsessi ja materjalide kasutamise kohta
+  - Ootame juhiseid veebilehe planeerimiseks
 
 ---
 
@@ -142,7 +144,8 @@
 - [x] CoDA tõlkimise protsessi ja autoriõiguste uurimine (2025-10-30)
 - [x] Voting Entity nõuete uurimine
 - [x] Eesti konkreetsete sammude dokumenteerimine
-- [x] E-maili draft koostamine coda.org-le (ei olnud palutud - kaassõltlaslik AI omalooming abiks)
+- [x] E-maili draft koostamine TMC-le (2025-10-31)
+- [x] E-maili saatmine tmc@coda.org (2025-10-31) - 7 küsimust tõlkimise ja materjalide kohta
 
 ---
 
