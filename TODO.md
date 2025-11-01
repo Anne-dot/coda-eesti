@@ -1,7 +1,5 @@
 # TODO - CODA Eesti Veebileht
 
-**Viimati uuendatud:** 2025-10-30
-
 ---
 
 ## ⏳ Käimasolevad
@@ -36,11 +34,6 @@
   - Link: https://coda.org/find-a-meeting/add-new-meeting/
   - Vastutaja: [Määrata koosolekul]
   - Märkus: See tuleb teha ENNE tõlkimisloa taotlemist (vaja group number'it)
-
-- [ ] **Vana Eesti lehe sulgemine** (PRIORITEET KÕRGE)
-  - E-mail tmc@coda.org ja/või [email protected]
-  - Teema: codaestonia.wordpress.com eemaldamine
-  - Vastutaja: [Määrata koosolekul - vajab e-maili õigust]
 
 - [ ] **Tõlkimisloa taotlemine** (PRIORITEET KESKMINE-KÕRGE)
   - Link: https://coda.org/service-info/translation-mgmt-main-page/ ("Start Here")
@@ -124,6 +117,17 @@
 
 - [ ] **Teata coda.org-ile** - Eesti veebilehe valmimisest
 - [ ] **Lisa koosolek coda.org lehele** - Vastutaja määramata
+
+---
+
+## ⏸️ Edasi Lükatud / Madal Prioriteet
+
+- [ ] **Vana Eesti lehe eemaldamine** (PRIORITEET MADAL - edasi lükatud)
+  - **Staatus:** Edasi lükatud kuni uue lehe valmimiseni
+  - **Põhjus:** Vana codaestonia.wordpress.com leht (2016) sisaldab vähemalt eestikeelset infot kaassõltuvuse kohta. Kuni uus leht valmis saab, on parem midagi kui mitte midagi.
+  - **Coda.org staatus:** Tallinna koosolek on coda.org lehel juba märgitud "Meeting No Longer Active" (uuendatud 15.07.2025)
+  - **Tulevikus:** Kui uus leht on valmis ja live, saada e-mail meetings@coda.org või info@coda.org palvega eemaldada vana WordPress leht
+  - Vastutaja: [Määrata hiljem]
 
 ---
 
