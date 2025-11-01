@@ -12,49 +12,7 @@
 
 ## ⏸️ Ootel / Planeeritud
 
-### PRIORITEET 1: Tõlkimisdokumendi läbivaatamine ja suhtlus coda.org-ga
-
-- [ ] **Vaata läbi tõlkimisdokument** - `docs/CODA_TOLKIMISE_PROTSESS.md`
-  - [ ] Loe dokument läbi
-  - [ ] Jaga info rühmaliikmetega
-  - [ ] Kontrolli üle, kas midagi on puudu
-
-- [ ] **Arutage grupis läbi:**
-  - [ ] Kes saab/tahab mida teha (vastutuste jaotus)
-  - [ ] Kellel on õigus kasutada grupi e-maili aadressi?
-  - [ ] Kes räägib piisavalt hästi inglise keelt vormide täitmiseks?
-  - [ ] Kas taotleme $1000 USD toetust või mitte?
-  - [ ] **Veebiannetused: kas ja kuidas saaksime annetusi koguda?**
-    - Kas tahame üldse annetusi koguda?
-    - Milliseid platvorme kasutada? (Stripe, PayPal, Wise, pangalink?)
-    - Veebikoosolekul osalejad (eesti inimesed, kes ei saa Kuressaarde) võivad tahta toetada
-    - Kes haldab rahalisi tehinguid?
-    - Läbipaistvus ja aruandlus
-    - Milleks annetusi kasutada? (hosting, domeeninimi, materjalide trükkimine?)
-
-- [ ] **Registreerige koosolek coda.org lehel** (PRIORITEET KÕRGE)
-  - Link: https://coda.org/find-a-meeting/add-new-meeting/
-  - Vastutaja: [Määrata koosolekul]
-  - Märkus: See tuleb teha ENNE tõlkimisloa taotlemist (vaja group number'it)
-
-- [ ] **Tõlkimisloa taotlemine** (PRIORITEET KESKMINE-KÕRGE)
-  - Link: https://coda.org/service-info/translation-mgmt-main-page/ ("Start Here")
-  - Vastutaja: [Määrata koosolekul - peab rääkima inglise keelt]
-  - Märkus: Tehke PÄRAST koosoleku registreerimist!
-
-### Uurimistöö ja Kommunikatsioon
-
-- [ ] **Lighthouse testimine** - Testi teiste CODA riikide lehti
-  - [ ] codauk.org
-  - [ ] coda-deutschland.de
-  - [ ] codacanada.ca
-  - [ ] codaireland.com
-  - [ ] codependentsanonymous.org.au
-  - [ ] Analüüsi tulemused ja tee kokkuvõte
-
-- [ ] **Jaga uurimustööd** - Saada Facebook gruppi AI tehtud uurimustöö
-
-### PRIORITEET 2: Veebilehe Tehniline Alustamine (EI VAJA coda.org nõusolekut)
+### PRIORITEET 1: Veebilehe Tehniline Alustamine (EI VAJA coda.org nõusolekut)
 
 **Võid alustada kohe paralleelselt konsultatsioonidega!**
 
@@ -122,6 +80,39 @@
 
 ---
 
+### PRIORITEET 2: Tõlkimisdokumendi läbivaatamine ja suhtlus coda.org-ga
+
+- [ ] **Vaata läbi tõlkimisdokument** - `docs/CODA_TOLKIMISE_PROTSESS.md`
+  - [x] Loe dokument läbi
+  - [x] Kontrolli üle, kas midagi on puudu
+  - [x] Saatsin küsimused TMC-le (2025-10-31)
+  - [ ] Jaga info rühmaliikmetega PÄRAST TMC vastust (täielik pilt)
+
+- [ ] **Arutage grupis läbi:**
+  - [ ] Kes saab/tahab mida teha (vastutuste jaotus)
+  - [ ] Kellel on õigus kasutada grupi e-maili aadressi?
+  - [ ] Kes räägib piisavalt hästi inglise keelt vormide täitmiseks?
+  - [ ] Kas taotleme $1000 USD toetust või mitte?
+  - [ ] **Veebiannetused: kas ja kuidas saaksime annetusi koguda?**
+    - Kas tahame üldse annetusi koguda?
+    - Milliseid platvorme kasutada? (Stripe, PayPal, Wise, pangalink?)
+    - Veebikoosolekul osalejad (eesti inimesed, kes ei saa Kuressaarde) võivad tahta toetada
+    - Kes haldab rahalisi tehinguid?
+    - Läbipaistvus ja aruandlus
+    - Milleks annetusi kasutada? (hosting, domeeninimi, materjalide trükkimine?)
+
+- [ ] **Registreerige koosolek coda.org lehel** (PRIORITEET KÕRGE)
+  - Link: https://coda.org/find-a-meeting/add-new-meeting/
+  - Vastutaja: [Määrata koosolekul]
+  - Märkus: See tuleb teha ENNE tõlkimisloa taotlemist (vaja group number'it)
+
+- [ ] **Tõlkimisloa taotlemine** (PRIORITEET KESKMINE-KÕRGE)
+  - Link: https://coda.org/service-info/translation-mgmt-main-page/ ("Start Here")
+  - Vastutaja: [Määrata koosolekul - peab rääkima inglise keelt]
+  - Märkus: Tehke PÄRAST koosoleku registreerimist!
+
+---
+
 ## ⏸️ Edasi Lükatud / Madal Prioriteet
 
 - [ ] **Vana Eesti lehe eemaldamine** (PRIORITEET MADAL - edasi lükatud)
@@ -146,6 +137,8 @@
 - [x] Eesti konkreetsete sammude dokumenteerimine
 - [x] E-maili draft koostamine TMC-le (2025-10-31)
 - [x] E-maili saatmine tmc@coda.org (2025-10-31) - 7 küsimust tõlkimise ja materjalide kohta
+- [x] Lighthouse testimine CODA riikide lehtedele (2025-10-29) - Teise AI agendi poolt
+- [x] Uurimustöö CODA rahvusvahelistest lehtedest ja tasuta platvormidest (2025-10-29)
 
 ---
 
