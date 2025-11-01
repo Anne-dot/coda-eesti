@@ -8,6 +8,9 @@
   - 7 küsimust tõlkimisprotsessi ja materjalide kasutamise kohta
   - Ootame juhiseid veebilehe planeerimiseks
 
+- **Ootan grupi vastust** - Kirjutasin chatti (2025-10-31)
+  - Küsisin: kes registreerib koosoleku coda.org lehel?
+
 ---
 
 ## ⏸️ Ootel / Planeeritud
