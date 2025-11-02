@@ -44,3 +44,5 @@
 
 **Tunded ja mõtted:**
 
+Mul on suitsunälg. Mul on hea meel, et see oluline osa sai tehtud ja samas nagu ikka ma tahaks juba palju kaugemal olla. Mul on hea meel, et ma olin selleks piisavalt eeltööd teinud, et sain vormilisele poolele keskenduda ega pidanud liiga palju otsuseid enam vastu võtma. Ma olen enda üle uhke, sest ma olen õppinud dokumenteerima ja sellele viitama, enne edasi minekut.
+
