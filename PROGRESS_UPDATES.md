@@ -44,5 +44,5 @@
 
 **Tunded ja mõtted:**
 
-Mul on suitsunälg. Mul on hea meel, et see oluline osa sai tehtud ja samas nagu ikka ma tahaks juba palju kaugemal olla. Mul on hea meel, et ma olin selleks piisavalt eeltööd teinud, et sain vormilisele poolele keskenduda ega pidanud liiga palju otsuseid enam vastu võtma. Ma olen enda üle uhke, sest ma olen õppinud dokumenteerima ja sellele viitama, enne edasi minekut.
+Mul on suitsunälg. Mul on hea meel, et see oluline osa sai tehtud ja samas nagu ikka ma tahaks juba palju kaugemal olla. Mul on hea meel, et ma olin selleks piisavalt eeltööd teinud, et sain vormilisele poolele keskenduda ega pidanud liiga palju otsuseid enam vastu võtma. Ma olen enda üle uhke, sest ma olen õppinud dokumenteerima ja sellele viitama, enne edasi minekut. Ma tean, et see töö võimaldab edaspidi kiiremini ja kvaliteetsemalt projekti teha ja kokkuvõttes säästab aega, mitte ei kuluta. ATH jaoks on lihtsalt siin vist liiga vähe dopamiini.
 
