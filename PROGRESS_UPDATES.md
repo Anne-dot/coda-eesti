@@ -74,3 +74,5 @@ Mul on suitsunälg. Mul on hea meel, et see oluline osa sai tehtud ja samas nagu
 
 **Tunded ja mõtted:**
 
+Ma tunnen üheaegselt uhkust ja ärritust. Uhkust, et ma märkasin ja võtsin midagi bugi osas ette. St et ma muutsin oma claude seadistust ja kaitsesin ennast selle eest ja siis ka andsin sellest välismaailmale teada, sest see on minu meelest oluline. Ja ma tunnen ärritust, sest ai tehnoloogia on küll palju arenenud ja mulle on sellest palju kasu minu ath aju nõrkuste kompenseerimisel, kuid ma ei saanud bugiga tegelemise arvelt oma projektiga tegeleda. Samas ma ka tean, et homseks heaks stardiks on juba päris head tööd tehtud ning kõik on dokumenteeritud ja sellega seoses on ka lihtne jätkata täpselt siit, kus ma praegu pooleli jäin.
+

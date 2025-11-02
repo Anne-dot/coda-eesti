@@ -4,6 +4,12 @@
 
 ## ⏳ Käimasolevad
 
+- **TODO.md vajab korrigeerimist** - Sisu on läinud lappesse
+  - Milestone 1, 2, 3 sisu on segamini
+  - Vajab ülevaatamist vastavalt GitHubi milestone definitsioonidele
+  - Vajab koosoleku protokolli ülevaatamist (millised lehed on kokku lepitud)
+  - Prioriteet: KÕRGE (enne uute issue'de loomist)
+
 - **TMC veebikohtumine kokku lepitud** - E 3. november kell 14:00
   - E-mail saadetud 31.10 → vastusena pakuti veebikohtumisel
   - 7 küsimust tõlkimisprotsessi ja materjalide kasutamise kohta
