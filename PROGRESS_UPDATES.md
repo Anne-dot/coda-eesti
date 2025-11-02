@@ -1,6 +1,6 @@
 # Progress Updates
 
-**Total time invested:** 4.5 hours
+**Total time invested:** 6 hours
 
 ---
 
@@ -45,4 +45,32 @@
 **Tunded ja mõtted:**
 
 Mul on suitsunälg. Mul on hea meel, et see oluline osa sai tehtud ja samas nagu ikka ma tahaks juba palju kaugemal olla. Mul on hea meel, et ma olin selleks piisavalt eeltööd teinud, et sain vormilisele poolele keskenduda ega pidanud liiga palju otsuseid enam vastu võtma. Ma olen enda üle uhke, sest ma olen õppinud dokumenteerima ja sellele viitama, enne edasi minekut. Ma tean, et see töö võimaldab edaspidi kiiremini ja kvaliteetsemalt projekti teha ja kokkuvõttes säästab aega, mitte ei kuluta. ATH jaoks on lihtsalt siin vist liiga vähe dopamiini.
+
+---
+
+**Time:** 22:30 - 00:00 (~1.5 hours)
+
+**Completed:**
+- Discovered and reported Bash permissions bug in Claude Code
+  - Tested `gh issue create` executing without permission prompt
+  - Found workaround: added "Bash" to "ask" list in settings.local.json
+  - Created detailed bug report with reproduction steps
+  - Posted Issue #10874 to anthropics/claude-code repository (first external bug report!)
+  - Added to TODO.md "Jälgimist vajavad asjad" section for tracking
+- Milestone 1 planning started
+  - Reviewed Issue #5 structure (grouped sub-issues approach)
+  - Planned Issue #12 sub-issues structure (6 tasks in 3 groups)
+  - Created Issue #13: Initialize and configure Astro project
+  - Updated Issue #12 with TASKS structure and Issue #13 link
+  - Updated TODO.md with Milestone 1 structure and GitHub links
+
+**Impact:**
+- **Security improvement:** Bash permissions now properly prompt for confirmation
+- **First external contribution:** Bug report to Claude Code helps improve the tool
+- **Milestone 1 planning complete:** Clear structure with grouped sub-issues ready for implementation
+- **ADHD-friendly workflow:** Small, focused issues (#13 created) following established pattern from Milestone 0
+- **TODO.md tracking:** External issues now tracked in dedicated section
+- **Ready for tomorrow:** Issue #13 ready to implement, remaining 5 sub-issues planned
+
+**Tunded ja mõtted:**
 

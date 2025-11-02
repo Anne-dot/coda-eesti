@@ -18,23 +18,64 @@
 
 ---
 
+## 🔍 Jälgimist vajavad asjad
+
+- **Claude Code bug report** - [Issue #10874](https://github.com/anthropics/claude-code/issues/10874)
+  - Bash permissions bug: `gh` write commands executesid ilma promptita
+  - Postitatud: 2025-11-02
+  - Workaround: Bash on `ask` listis
+
+---
+
 ## ⏸️ Ootel / Planeeritud
 
-### PRIORITEET 1: Veebilehe Tehniline Alustamine (EI VAJA coda.org nõusolekut)
+### PRIORITEET 1: Milestone 0 - Structure and Decisions
 
-**Võid alustada kohe paralleelselt konsultatsioonidega!**
+**GitHub:** See [Milestone 0 - Structure and Decisions](https://github.com/Anne-dot/coda-eesti/milestone/1)
 
-- [ ] **Projekti kausta struktuur**
-  - [ ] Korrasta olemasolevad failid loogiliselt
-  - [ ] Määra kaustade struktuur (docs, src, public jne)
-  - [ ] Liiguta failid õigetesse kaustadesse
-  - **Märkus:** Tee enne Astro setupi!
+**Parent Issue:** [#1 - Project technical foundations](https://github.com/Anne-dot/coda-eesti/issues/1)
 
-- [ ] **Astro projekti setup**
-  - [ ] npm init astro
-  - [ ] Tailwind CSS seadistamine
-  - [ ] Shadcn/ui integreerimine
-  - [ ] Projekti struktuur
+- [x] **[Issue #4](https://github.com/Anne-dot/coda-eesti/issues/4): Projekti kausta struktuur** ✅ VALMIS
+  - Loodud `/research` kaust
+  - Liigutatud lighthouse testid ja Python skriptid
+  - Eemaldatud duplikaadid (DRY)
+  - Loodud README.md lingidega
+
+- [x] **[Issue #5](https://github.com/Anne-dot/coda-eesti/issues/5): Tech stack dokumenteerimine** ✅ VALMIS
+  - [#6: Astro framework](https://github.com/Anne-dot/coda-eesti/issues/6) ✅
+  - [#7: Tailwind CSS](https://github.com/Anne-dot/coda-eesti/issues/7) ✅
+  - [#8: Shadcn/ui](https://github.com/Anne-dot/coda-eesti/issues/8) ✅
+  - [#9: Sveltia CMS](https://github.com/Anne-dot/coda-eesti/issues/9) ✅
+  - [#10: GitHub Pages](https://github.com/Anne-dot/coda-eesti/issues/10) ✅
+  - [#11: CI/CD pipeline](https://github.com/Anne-dot/coda-eesti/issues/11) ✅
+
+- [ ] **[Issue #2](https://github.com/Anne-dot/coda-eesti/issues/2): Visual identity and design system**
+  - CODA.org disaini analüüs
+  - Värvikoodid
+  - Fondid
+  - Paigutus ja komponendid
+
+- [ ] **[Issue #3](https://github.com/Anne-dot/coda-eesti/issues/3): UX & Accessibility planning**
+  - Lehekülgede struktuur
+  - Navigatsioon
+  - Mobile-first approach
+  - Accessibility requirements
+
+---
+
+### PRIORITEET 1.5: Milestone 1 - MVP Static Site
+
+**GitHub:** See [Milestone 1 - MVP Static Site](https://github.com/Anne-dot/coda-eesti/milestone/2)
+
+**Parent Issue:** [#12 - Technical setup - Astro + Tailwind + Shadcn](https://github.com/Anne-dot/coda-eesti/issues/12)
+
+- [ ] **[Issue #12](https://github.com/Anne-dot/coda-eesti/issues/12): Technical setup - Astro + Tailwind + Shadcn**
+  - [ ] [#13: Initialize and configure Astro project](https://github.com/Anne-dot/coda-eesti/issues/13)
+  - [ ] Integrate Tailwind CSS (TBD)
+  - [ ] Make Shadcn/ui components available (TBD)
+  - [ ] Set up Prettier (TBD)
+  - [ ] Set up ESLint (TBD)
+  - [ ] Create project folder structure (TBD)
   - **Märkus:** Tehniline setup ei vaja CoDA luba
 
 - [ ] **CODA.org disaini analüüs**
@@ -134,6 +175,13 @@
 
 ## ✅ Tehtud
 
+**Milestone 0 Progress (50%):**
+- [x] [Issue #4](https://github.com/Anne-dot/coda-eesti/issues/4): Projekti kausta struktuur ✅
+- [x] [Issue #5](https://github.com/Anne-dot/coda-eesti/issues/5): Tech stack dokumenteerimine ✅
+- [ ] Issue #2: Visual identity (järgmine)
+- [ ] Issue #3: UX & Accessibility (järgmine)
+
+**Eelnevad:**
 - [x] GitHub repo loomine (coda-eesti)
 - [x] Koosoleku protokoll (2025-10-29)
 - [x] Tech stack otsus
