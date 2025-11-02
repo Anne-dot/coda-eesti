@@ -48,7 +48,7 @@ def parse_lighthouse_json(filepath):
         return None
 
 def main():
-    lighthouse_dir = Path('/home/d0021/Automation/coda/lighthouse-testid')
+    lighthouse_dir = Path('/home/d0021/Automation/coda/research/lighthouse-tests')
 
     results = {}
 
@@ -108,17 +108,19 @@ def main():
             print(f"  Mobile:   [Ei testitud]")
         print()
 
+    # MOBILE KATEGOORIA
     print("=" * 100)
-    print("TOP 3 - MOBILE PERFORMANCE")
+    print("MOBILE - TOP 3 PERFORMANCE")
     print("=" * 100)
     mobile_results = [(c, d) for c, d in sorted_results if d['mobile']]
-    for i, (country, data) in enumerate(mobile_results[:3], 1):
+    mobile_by_perf = sorted(mobile_results, key=lambda x: x[1]['mobile']['performance'], reverse=True)
+    for i, (country, data) in enumerate(mobile_by_perf[:3], 1):
         m = data['mobile']
         print(f"{i}. {country}: Performance {m['performance']}, Accessibility {m['accessibility']}")
 
     print()
     print("=" * 100)
-    print("TOP 3 - MOBILE ACCESSIBILITY")
+    print("MOBILE - TOP 3 ACCESSIBILITY")
     print("=" * 100)
     mobile_by_acc = sorted(mobile_results, key=lambda x: x[1]['mobile']['accessibility'], reverse=True)
     for i, (country, data) in enumerate(mobile_by_acc[:3], 1):
@@ -127,11 +129,75 @@ def main():
 
     print()
     print("=" * 100)
-    print("HALVIMAD - MOBILE PERFORMANCE")
+    print("MOBILE - BOTTOM 3 PERFORMANCE")
     print("=" * 100)
-    for i, (country, data) in enumerate(reversed(mobile_results[-3:]), 1):
+    for i, (country, data) in enumerate(reversed(mobile_by_perf[-3:]), 1):
         m = data['mobile']
         print(f"{i}. {country}: Performance {m['performance']}, Accessibility {m['accessibility']}")
+
+    print()
+    print("=" * 100)
+    print("MOBILE - BOTTOM 3 ACCESSIBILITY")
+    print("=" * 100)
+    for i, (country, data) in enumerate(reversed(mobile_by_acc[-3:]), 1):
+        m = data['mobile']
+        print(f"{i}. {country}: Accessibility {m['accessibility']}, Performance {m['performance']}")
+
+    # DESKTOP KATEGOORIA
+    print()
+    print("=" * 100)
+    print("DESKTOP - TOP 3 PERFORMANCE")
+    print("=" * 100)
+    desktop_results = [(c, d) for c, d in sorted_results if d['desktop']]
+    desktop_by_perf = sorted(desktop_results, key=lambda x: x[1]['desktop']['performance'], reverse=True)
+    for i, (country, data) in enumerate(desktop_by_perf[:3], 1):
+        d = data['desktop']
+        print(f"{i}. {country}: Performance {d['performance']}, Accessibility {d['accessibility']}")
+
+    print()
+    print("=" * 100)
+    print("DESKTOP - BOTTOM 3 PERFORMANCE")
+    print("=" * 100)
+    for i, (country, data) in enumerate(reversed(desktop_by_perf[-3:]), 1):
+        d = data['desktop']
+        print(f"{i}. {country}: Performance {d['performance']}, Accessibility {d['accessibility']}")
+
+    # KOKKUVÕTE
+    print()
+    print("=" * 100)
+    print("KOKKUVÕTE - TOP 3 ÜLDINE (keskmine desktop + mobile performance)")
+    print("=" * 100)
+    # Arvuta keskmine performance
+    overall = []
+    for country, data in results.items():
+        desktop_perf = data['desktop']['performance'] if data['desktop'] else 0
+        mobile_perf = data['mobile']['performance'] if data['mobile'] else 0
+        # Kui mõlemad olemas, keskmine; kui üks, siis see
+        if data['desktop'] and data['mobile']:
+            avg = (desktop_perf + mobile_perf) / 2
+        elif data['desktop']:
+            avg = desktop_perf
+        elif data['mobile']:
+            avg = mobile_perf
+        else:
+            avg = 0
+        overall.append((country, avg, data))
+
+    overall.sort(key=lambda x: x[1], reverse=True)
+
+    for i, (country, avg, data) in enumerate(overall[:3], 1):
+        d_perf = data['desktop']['performance'] if data['desktop'] else 'N/A'
+        m_perf = data['mobile']['performance'] if data['mobile'] else 'N/A'
+        print(f"{i}. {country}: Keskmine {avg:.1f} (Desktop: {d_perf}, Mobile: {m_perf})")
+
+    print()
+    print("=" * 100)
+    print("KOKKUVÕTE - BOTTOM 3 ÜLDINE (keskmine desktop + mobile performance)")
+    print("=" * 100)
+    for i, (country, avg, data) in enumerate(reversed(overall[-3:]), 1):
+        d_perf = data['desktop']['performance'] if data['desktop'] else 'N/A'
+        m_perf = data['mobile']['performance'] if data['mobile'] else 'N/A'
+        print(f"{i}. {country}: Keskmine {avg:.1f} (Desktop: {d_perf}, Mobile: {m_perf})")
 
 if __name__ == '__main__':
     main()

@@ -34,7 +34,7 @@ Vormil tuleb esitada järgmine info:
 
 **Samm 2: Vaata läbi heakskiidetud kirjanduse nimekiri**
 
-PDF dokument "CoDA Endorsed Literature List" (https://coda.org/wp-content/uploads/CoDA-Endorsed-Literature-List_3.9.2025_Translation-and-PD-List.pdf) sisaldab nimekirja kõigist materjalidest, mida on võimalik tõlkida või publitseerida.
+PDF dokument "CoDA Endorsed Literature List" (https://coda.org/wp-content/uploads/CoDA-Endorsed-Literature-List_3.9.2025_Translation-and-PD-List.pdf, arvutis /home/d0021/Automation/coda/docs/CoDA-Endorsed-Literature-List_3.9.2025_Translation-and-PD-List.pdf) sisaldab nimekirja kõigist materjalidest, mida on võimalik tõlkida või publitseerida.
 
 **Samm 3: Taotlege toetust (valikuline)**
 
@@ -64,7 +64,7 @@ CoDA pakub Voting Entity'dele (riiklikud või piirkondlikud CoDA ühendused) üh
 
 ## Kirjanduse Heakskiitmine ja Publitseerimine
 
-CoDA Service Conference heakskiidetud kirjandust publitseerib ja levitab **CoRe Publications** inglise ja hispaania keeles. Uued kirjandusmaterjaalid esitab CoDA Literature Committee konverentsile läbivaatamiseks ja hääletamiseks. Kui enamus delegaate kiidab heaks, saab materjalist CoDA Service Conference endorsed (heakskiidetud) kirjandus.
+CoDA Service Conference heakskiidetud kirjandust publitseerib ja levitab **CoRe Publications** inglise ja hispaania keeles. Uued kirjandusmaterjalid esitab CoDA Literature Committee konverentsile läbivaatamiseks ja hääletamiseks. Kui enamus delegaate kiidab heaks, saab materjalist CoDA Service Conference endorsed (heakskiidetud) kirjandus.
 
 Hispaania keele outreach: Spanish Outreach Committee aitab küsimustega hispaaniakeelse kirjanduse kättesaadavuse kohta ja tõlgib teiste CoDA komiteede, webmasteri ja Fellowship Service Workeri jaoks.
 
