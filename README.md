@@ -28,7 +28,7 @@ Modern, accessible website for Co-Dependents Anonymous (CODA) Estonia support gr
 - **[Shadcn/ui](https://ui.shadcn.com/)** - Accessible UI components
 - **[GitHub Pages](https://pages.github.com/)** - Free hosting
 
-📄 **[Read full tech stack decision →](docs/TECH_STACK_OTSUS.md)**
+📄 **[Read full tech stack decision →](docs/TECH_STACK_DECISION.md)**
 
 ---
 
@@ -62,7 +62,7 @@ npm run preview
 ## 📚 Documentation
 
 - **[Meeting Protocol (2025-10-29)](docs/PROTOKOLLID/2025-10-29.md)** - Initial planning meeting
-- **[Tech Stack Decision](docs/TECH_STACK_OTSUS.md)** - Why we chose this stack
+- **[Tech Stack Decision](docs/TECH_STACK_DECISION.md)** - Why we chose this stack
 - **[Platform Research](CODA_uurimustöö_veebilehed.md)** - Free platform comparison
 
 ---
@@ -73,7 +73,7 @@ This is a community project for CODA Estonia. Multiple administrators can manage
 
 **For content editors:** User guide coming soon
 
-**For developers:** See [TECH_STACK_OTSUS.md](docs/TECH_STACK_OTSUS.md)
+**For developers:** See [TECH_STACK_DECISION.md](docs/TECH_STACK_DECISION.md)
 
 ---
 
