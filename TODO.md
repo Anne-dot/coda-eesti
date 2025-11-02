@@ -4,12 +4,17 @@
 
 ## ⏳ Käimasolevad
 
-- **Ootan TMC vastust** - Saatsin e-maili tmc@coda.org (2025-10-31)
+- **TMC veebikohtumine kokku lepitud** - E 3. november kell 14:00
+  - E-mail saadetud 31.10 → vastusena pakuti veebikohtumisel
   - 7 küsimust tõlkimisprotsessi ja materjalide kasutamise kohta
-  - Ootame juhiseid veebilehe planeerimiseks
+  - Saame põhjalikud juhised veebilehe planeerimiseks
 
 - **Ootan grupi vastust** - Kirjutasin chatti (2025-10-31)
   - Küsisin: kes registreerib koosoleku coda.org lehel?
+
+- **Ootan Ande K vastust** - Kirjutasin veebilehe disaini kohta (2025-11-02)
+  - Ta kujundab raamatuid → võiks olla pädev aitama
+  - Küsisin: kas võin tema poole pöörduda disainiga seoses?
 
 ---
 
