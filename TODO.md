@@ -10,10 +10,12 @@
   - Vajab koosoleku protokolli ülevaatamist (millised lehed on kokku lepitud)
   - Prioriteet: KÕRGE (enne uute issue'de loomist)
 
-- **TMC veebikohtumine kokku lepitud** - E 3. november kell 14:00
-  - E-mail saadetud 31.10 → vastusena pakuti veebikohtumisel
-  - 7 küsimust tõlkimisprotsessi ja materjalide kasutamise kohta
-  - Saame põhjalikud juhised veebilehe planeerimiseks
+- **Ootan Brenda (tmc@coda.org) vastust** - TMC veebikohtumine ei toimunud
+  - Kokkulepitud aeg: E 3. november kell 14:00 EET
+  - Ootasin kohtumises 30 minutit (14:00-14:30)
+  - Brenda ei ilmunud ega saatnud sõnumit
+  - Saatsin e-maili 14:20 → ootan vastust
+  - 7 küsimust tõlkimisprotsessi ja materjalide kasutamise kohta endiselt vastamata
 
 - **Ootan grupi vastust** - Kirjutasin chatti (2025-10-31)
   - Küsisin: kes registreerib koosoleku coda.org lehel?
