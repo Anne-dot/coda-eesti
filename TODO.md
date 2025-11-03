@@ -29,6 +29,11 @@
 - **Claude Code bug report** - [Issue #10874](https://github.com/anthropics/claude-code/issues/10874)
   - Bash permissions bug: `gh` write commands executesid ilma promptita
   - Postitatud: 2025-11-02
+  - Duplicate analüüs tehtud: 2025-11-03
+    - Sarnane #6608-le (sama root cause - default-allow behavior)
+    - Erinev #6527 ja #8961-st (erinevad stsenaariumid)
+    - Kommentaar GitHubis postitatud
+  - Staatus: Ootan meeskonna vastust
   - Workaround: Bash on `ask` listis
 
 ---
