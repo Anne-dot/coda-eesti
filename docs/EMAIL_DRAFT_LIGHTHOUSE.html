@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 20px;
+        }
+        .header {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-weight: bold;
+            font-size: 14px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .tech-team-header {
+            font-weight: bold;
+            font-size: 16px;
+            margin: 30px 0 20px 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .plugin-box {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #0073aa;
+            background-color: #f9f9f9;
+        }
+        .plugin-title {
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin: 5px 0;
+        }
+        .results-box {
+            background-color: #fff3cd;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #856404;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+<strong>TO:</strong> Brenda<br>
+<strong>SUBJECT:</strong> CoDA.org Website Performance - Test Results and Recommendations
+</div>
+
+<hr>
+
+<p>Hi Brenda,</p>
+
+<p>This email is for forwarding to your tech team. It contains:</p>
+<ul>
+    <li>Lighthouse performance test results for coda.org (mobile and desktop)</li>
+    <li>Explanation of what the results mean</li>
+    <li>WordPress-specific recommendations for quick fixes</li>
+</ul>
+
+<p>Feel free to forward this as-is or adapt as needed.</p>
+
+<div class="tech-team-header">
+FOR TECH TEAM - CoDA.org Performance Issues and Solutions
+</div>
+
+<p>Hello,</p>
+
+<p>My name is Anne, and I am a member of the Estonian CoDA group (we are planning to officially register soon). I am building a website for our group and country. As part of this work, I analyzed CoDA websites from different countries for inspiration and to understand what works well.</p>
+
+<p>During this research, I discovered that coda.org has significant performance issues that affect users' ability to access the site. As a junior programmer who graduated about 6 months ago, I wanted to share these findings, offer my knowledge, and propose some ideas for how to address this issue.</p>
+
+<div class="section-title">What is Lighthouse?</div>
+
+<p>Lighthouse is Google's free website testing tool. It measures how fast and accessible websites are for visitors. Think of it like a health check for websites - it shows what's working well and what needs attention.</p>
+
+<p>The test gives scores from 0-100 in different categories:</p>
+<ul>
+    <li>90-100 (Green) = Excellent</li>
+    <li>50-89 (Orange) = Needs improvement</li>
+    <li>0-49 (Red) = Critical issues</li>
+</ul>
+
+<p>I ran tests on both mobile phones and desktop computers to see how coda.org performs.</p>
+
+<div class="section-title">Test Results - Critical Issues Found</div>
+
+<p>I tested coda.org on November 4, 2025. Both mobile and desktop tests show critical performance problems:</p>
+
+<div class="results-box">
+<strong>Mobile Performance: 3/100 (RED - Critical)</strong><br>
+<strong>Desktop Performance: 33/100 (RED - Critical)</strong>
+</div>
+
+<p>Both scores are in the critical "red" zone. For comparison, modern websites typically aim for scores above 90 (green).</p>
+
+<p>I have attached the summary test reports in PDF format for your review.</p>
+
+<div class="section-title">What This Means for Users</div>
+
+<p>When a website has a performance score this low, it means:</p>
+<ul>
+    <li>The page takes too long to load or doesn't load at all</li>
+    <li>Users see a blank screen or partially loaded page</li>
+    <li>Mobile users are especially affected</li>
+    <li>People with slower internet connections cannot access the site</li>
+</ul>
+
+<p><strong>Real-world impact:</strong> I personally experienced this at our CoDA meeting place (in a basement with limited connectivity). Facebook Messenger worked fine, but coda.org wouldn't fully load - it only displayed the menu, and the page with images below couldn't load at all.</p>
+
+<p>This means people seeking help or looking for meetings may not be able to access CoDA.org at all.</p>
+
+<div class="section-title">Simple Fixes That Make a Big Difference</div>
+
+<p>The good news: Most of these problems can be fixed by installing free WordPress plugins. You don't need to know how to code - just follow these steps:</p>
+
+<div class="plugin-box">
+<div class="plugin-title">1. FIX IMAGES (Saves 1,368 KiB + makes images load only when needed)</div>
+<p><strong>Plugin: "EWWW Image Optimizer" (FREE - no limitations)</strong></p>
+
+<p><strong>What it does:</strong></p>
+<ul>
+    <li>Makes your images smaller without looking worse (like zipping a file)</li>
+    <li>Converts images to a newer format (WebP) that loads faster</li>
+    <li>Only loads images when visitors scroll down to see them (instead of loading everything at once)</li>
+    <li>Can optimize all your existing images in bulk</li>
+</ul>
+
+<p><strong>How to install:</strong></p>
+<ul>
+    <li>Go to WordPress dashboard → Plugins → Add New</li>
+    <li>Search "EWWW Image Optimizer"</li>
+    <li>Click "Install" then "Activate"</li>
+    <li>Go to Settings → EWWW Image Optimizer</li>
+    <li>Click "Enable Ludicrous Mode" for best results</li>
+    <li>Click "Scan and Optimize" to fix existing images</li>
+</ul>
+
+<p><strong>Impact:</strong> This alone will improve mobile from 3 to around 30-40.</p>
+</div>
+
+<div class="plugin-box">
+<div class="plugin-title">2. SPEED UP CODE LOADING (Saves 3.8 seconds on mobile!)</div>
+<p><strong>Plugin: "Autoptimize" (FREE)</strong></p>
+
+<p><strong>What it does:</strong></p>
+<ul>
+    <li>Combines many small files into fewer bigger files (like packing a suitcase efficiently)</li>
+    <li>Removes extra spaces and comments from code (makes files smaller)</li>
+    <li>Lets the page show content before loading all the fancy features</li>
+</ul>
+
+<p><strong>How to install:</strong></p>
+<ul>
+    <li>WordPress dashboard → Plugins → Add New</li>
+    <li>Search "Autoptimize"</li>
+    <li>Install and activate</li>
+    <li>Go to Settings → Autoptimize</li>
+    <li>Check these boxes: "Optimize JavaScript" and "Optimize CSS"</li>
+    <li>Click "Save"</li>
+</ul>
+
+<p><strong>Impact:</strong> Removes the 3.8 second delay - page starts showing much faster.</p>
+</div>
+
+<div class="plugin-box">
+<div class="plugin-title">3. SAVE FINISHED PAGES (Makes repeat visits 5-10x faster)</div>
+<p><strong>Plugin: "WP Super Cache" (FREE)</strong></p>
+
+<p><strong>What it does:</strong><br>
+Think of it like meal prep - instead of cooking from scratch every time someone visits, you save ready-made versions of your pages.</p>
+
+<p><strong>How to install:</strong></p>
+<ul>
+    <li>WordPress dashboard → Plugins → Add New</li>
+    <li>Search "WP Super Cache"</li>
+    <li>Install and activate</li>
+    <li>Go to Settings → WP Super Cache</li>
+    <li>Click "Caching On"</li>
+    <li>Click "Update Status"</li>
+</ul>
+
+<p><strong>Impact:</strong> Makes the site much faster for everyone who visits.</p>
+</div>
+
+<div class="results-box">
+<strong>ESTIMATED RESULTS:</strong>
+<ul>
+    <li>Mobile: Could improve from 3/100 to 30-50/100 (still needs work but usable)</li>
+    <li>Desktop: Could improve from 33/100 to 60-75/100 (much better)</li>
+    <li>Users will actually be able to load the page instead of seeing a blank screen</li>
+</ul>
+
+<strong>TIME NEEDED:</strong> About 30-45 minutes to install all three plugins<br>
+<strong>COST:</strong> $0 (all completely free with no limitations)<br>
+<strong>TECHNICAL SKILL NEEDED:</strong> If you can add a WordPress plugin, you can do this
+</div>
+
+<div class="section-title">How I Can Help</div>
+
+<p>I am willing to:</p>
+<ul>
+    <li>Answer questions about these recommended fixes</li>
+    <li>Run a new Lighthouse test after the plugins have been installed to measure the improvement</li>
+</ul>
+
+<p>Web development is not my passion or strength - I am doing this for the Estonian site because I want to give back to my community, and this is what I am capable of doing.</p>
+
+<p>However, I have good relationships with the vocational school I graduated from last year, and I know that their students are always looking for final projects. I wrote to my teachers asking what kind of projects are suitable for this year's final projects, and whether optimizing and improving an international 12-step program website would meet the criteria. I am waiting for my teacher's reply at the time of sending this email.</p>
+
+<p>What do you think - would you be open to considering an Estonian junior programmer student working on the coda.org webpage as their final project? I see potential for mutually beneficial cooperation here:</p>
+
+<ul>
+    <li>The student gets a real-world project with meaningful impact</li>
+    <li>CoDA.org gets professional optimization work at no cost</li>
+    <li>I would be willing to supervise the student to ensure quality work</li>
+    <li>The student would learn valuable skills while helping the recovery community</li>
+</ul>
+
+<p>If this interests you, I'm happy to discuss further once I hear back from my teachers about the project requirements.</p>
+
+<p>This is my way of giving back to the CoDA community that has helped me.</p>
+
+<hr>
+
+<p>Thank you for your service,<br>
+Anne from Estonia<br>
+ruusmann@gmail.com</p>
+
+</body>
+</html>

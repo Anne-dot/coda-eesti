@@ -24,6 +24,13 @@
   - Ta kujundab raamatuid → võiks olla pädev aitama
   - Küsisin: kas võin tema poole pöörduda disainiga seoses?
 
+- **Ootan õpetajate vastust** - Kirjutasin TA-23 õpetajatele (2025-11-04 11:40)
+  - Küsisin: kas CoDA.org veebilehe parandamine sobiks lõputööks?
+  - Kontekst: coda.org Lighthouse performance 3 (mobile), 33 (desktop) - kritiline
+  - Neil pole meeskonnas ressurssi, vabatahtlikud
+  - Tahaksin kohapeal arutada lõputöö nõudeid ja projekte
+  - Õpetajad: Andrus Naulainen, Gen Vikat, Karl Gregor Rauniste, Ralf Heinsoo
+
 ---
 
 ## 🔍 Jälgimist vajavad asjad
@@ -37,6 +44,12 @@
     - Kommentaar GitHubis postitatud
   - Staatus: Ootan meeskonna vastust
   - Workaround: Bash on `ask` listis
+
+- **CoDA.org performance recommendations** - [EMAIL_DRAFT_LIGHTHOUSE.html](docs/EMAIL_DRAFT_LIGHTHOUSE.html)
+  - Lighthouse test tulemused (Mobile: 3/100, Desktop: 33/100)
+  - WordPress quick fixes soovitused (3 tasuta pluginat)
+  - Saadetud Brendale edastamiseks tech meeskonnale: 2025-11-04
+  - Ootan: vastust või implementeerimise tagasisidet
 
 ---
 
