@@ -10,12 +10,15 @@
   - Vajab koosoleku protokolli ülevaatamist (millised lehed on kokku lepitud)
   - Prioriteet: KÕRGE (enne uute issue'de loomist)
 
-- **Ootan Brenda (tmc@coda.org) vastust** - TMC veebikohtumine ei toimunud
-  - Kokkulepitud aeg: E 3. november kell 14:00 EET
-  - Ootasin kohtumises 30 minutit (14:00-14:30)
-  - Brenda ei ilmunud ega saatnud sõnumit
-  - Saatsin e-maili 14:20 → ootan vastust
-  - 7 küsimust tõlkimisprotsessi ja materjalide kasutamise kohta endiselt vastamata
+- **Ootan Brenda (tmc@coda.org) vastust** - Videokõne toimus 3. novembril
+  - Algne aeg lükati edasi
+  - Videokõne toimus ja oli väga informatiivne
+  - Saatsin follow-up e-maili täiendavate küsimustega (2025-11-04)
+  - Ootan vastust:
+    - Autoriõiguse täpne formaat veebilehel ("fair use")
+    - Visuaalse identiteedi kontakt (Laurie C.)
+    - Daily Meditations kasutamine veebilehel ja e-mailiga
+    - Kirjanduse müük ja levitamine
 
 - **Ootan grupi vastust** - Kirjutasin chatti (2025-10-31)
   - Küsisin: kes registreerib koosoleku coda.org lehel?
@@ -30,6 +33,13 @@
   - Neil pole meeskonnas ressurssi, vabatahtlikud
   - Tahaksin kohapeal arutada lõputöö nõudeid ja projekte
   - Õpetajad: Andrus Naulainen, Gen Vikat, Karl Gregor Rauniste, Ralf Heinsoo
+
+- **Ootan CoDA Eesti rühma tagasisidet** - Saatsin TMC vestluse kokkuvõtte (2025-11-04)
+  - Fail: [TMC_VESTLUSE_KOKKUVOTE.docx](docs/TMC_VESTLUSE_KOKKUVOTE.docx)
+  - Ootan:
+    - Kes võtab vastutuse rühma registreerimise eest CoDA.org lehel
+    - Kes on teine inimene translation agreement'i allkirjastamiseks (peab rääkima inglise keelt)
+    - Millised materjalid tahame legaliseerida ja tulevikus tõlkida
 
 ---
 
