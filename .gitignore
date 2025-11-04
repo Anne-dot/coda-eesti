@@ -38,3 +38,6 @@ Thumbs.db
 logs/
 *.log
 KUIDAS_MUUTA_CLAUDE_ÕIGUSI.md
+
+# Lighthouse test results
+research/lighthouse-tests/
