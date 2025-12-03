@@ -15,6 +15,25 @@ Global instruction files include:
 - `instructions.md` - Core working principles, coding standards, documentation rules, response format requirements
 - `eesti_keele_juhend.txt` - Estonian language usage rules
 
+## MANDATORY: Session Start Checklist
+
+### Permissions Test (KOHUSTUSLIK!)
+
+Pärast juhiste lugemist tee kohe test:
+1. Proovi käivitada lihtne bash käsk (nt `ls`)
+2. Anna kasutajale tagasisidet: kas süsteem nõudis kinnitust või said ilma selleta?
+3. Kui said ilma kinnituseta → HOIATA kasutajat, et seaded ei tööta
+
+**NB:** Kasutaja tahab ALATI kinnitada muudatusi enne nende tegemist.
+
+## Tööstiil (OLULINE)
+
+**Ära tee muudatusi omal algatusel:**
+- Näita ette, mida kavatsed muuta
+- Oota kinnitust enne muutmist
+- Bash käsud nagu `--write`, `--fix`, `--force` - ALATI küsi esmalt luba
+- Esmalt `--check` või `--dry-run`, siis näita tulemust, siis küsi luba
+
 ## Project Overview
 
 Modern, accessible website for CODA Eesti (Co-Dependents Anonymous Estonia).
