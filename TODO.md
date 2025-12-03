@@ -106,14 +106,13 @@
 
 **Parent Issue:** [#12 - Technical setup - Astro + Tailwind + Shadcn](https://github.com/Anne-dot/coda-eesti/issues/12)
 
-- [ ] **[Issue #12](https://github.com/Anne-dot/coda-eesti/issues/12): Technical setup - Astro + Tailwind + Shadcn**
-  - [ ] [#13: Initialize and configure Astro project](https://github.com/Anne-dot/coda-eesti/issues/13)
-  - [ ] [#14: Integrate Tailwind CSS](https://github.com/Anne-dot/coda-eesti/issues/14)
-  - [ ] [#15: Make Shadcn/ui components available](https://github.com/Anne-dot/coda-eesti/issues/15)
-  - [ ] [#16: Set up Prettier for code formatting](https://github.com/Anne-dot/coda-eesti/issues/16)
-  - [ ] [#17: Set up ESLint for code linting](https://github.com/Anne-dot/coda-eesti/issues/17)
-  - [ ] [#18: Create project folder structure](https://github.com/Anne-dot/coda-eesti/issues/18)
-  - **Märkus:** Tehniline setup ei vaja CoDA luba
+- [x] **[Issue #12](https://github.com/Anne-dot/coda-eesti/issues/12): Technical setup - Astro + Tailwind + Shadcn** ✅ VALMIS (2025-12-03)
+  - [x] [#13: Initialize and configure Astro project](https://github.com/Anne-dot/coda-eesti/issues/13)
+  - [x] [#14: Integrate Tailwind CSS](https://github.com/Anne-dot/coda-eesti/issues/14)
+  - [x] [#15: Make Shadcn/ui components available](https://github.com/Anne-dot/coda-eesti/issues/15)
+  - [x] [#16: Set up Prettier for code formatting](https://github.com/Anne-dot/coda-eesti/issues/16)
+  - [x] [#17: Set up ESLint for code linting](https://github.com/Anne-dot/coda-eesti/issues/17)
+  - [x] [#18: Create project folder structure](https://github.com/Anne-dot/coda-eesti/issues/18)
 
 - [ ] **CODA.org disaini analüüs**
   - [ ] Värvikoodid
