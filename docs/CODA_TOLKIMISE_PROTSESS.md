@@ -236,15 +236,9 @@ Kui olete l채binud punkti 3 (t천lkimisloa taotlus) ja vajate rahalist toetust t�
 
 Kui koosolek on registreeritud ja t천lkimisluba taotletud/saadud, saab alustada uue veebilehe loomist.
 
-**Plaanitud tehnoloogia:**
-- Astro (static site generator)
-- Sveltia CMS (git-based CMS)
-- Tailwind CSS + Shadcn/ui
-- GitHub Pages v천i sarnane hosting
+**Plaanitud tehnoloogia:** Vt [TECH_STACK_DECISION.md](./TECH_STACK_DECISION.md)
 
 **Vastutaja:** [M채채ratud - tech-inimene r체hmast]
-
-**Allikas:** Projekti README.md ja TODO.md
 
 ---
 

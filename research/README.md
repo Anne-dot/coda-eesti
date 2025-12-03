@@ -32,4 +32,4 @@ Performance and accessibility test results from various CoDA national websites. 
 
 ## Purpose
 
-These materials informed our decision to use GitHub Pages + Astro + Sveltia CMS. See tech stack documentation in [`/docs/TECH_STACK_DECISION.md`](../docs/TECH_STACK_DECISION.md).
+These materials informed our tech stack decision. See [`/docs/TECH_STACK_DECISION.md`](../docs/TECH_STACK_DECISION.md) for details.

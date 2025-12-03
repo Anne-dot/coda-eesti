@@ -12,8 +12,8 @@
 - **CMS:** Sveltia CMS
 - **Styling:** Tailwind CSS
 - **UI Components:** Shadcn/ui
-- **Hosting:** GitHub Pages
-- **CI/CD:** GitHub Actions
+- **Hosting:** Cloudflare Pages
+- **CI/CD:** Cloudflare Pages (automaatne)
 
 ---
 
@@ -169,21 +169,23 @@ Sveltia CMS valiti, sest:
 
 ## Hosting
 
-### GitHub Pages ⭐ **VALITUD**
+### Cloudflare Pages ⭐ **VALITUD**
 
 **Põhjused:**
 - ✅ **100% tasuta**
 - ✅ **Reklaamideta**
+- ✅ **Privaatne repo OK** (GitHub Pages tasuta vajab avalikku)
 - ✅ **Oma domeen võimalik** (tasuta)
 - ✅ **HTTPS vaikimisi**
-- ✅ **Git versioonikontroll**
-- ✅ **Piiramatu arv collaborators**
-- ✅ Anne tunneb GitHub Actions'it juba
+- ✅ **Kiire CDN** (globaalne võrgustik)
+- ✅ Lihtne GitHub integratsioon
+
+**Aadress arenduse ajal:** `coda-eesti.pages.dev`
 
 **Alternatiivid:**
-- Netlify - tasuta, aga lisateenused pole vajalikud
+- GitHub Pages - vajab avalikku repot tasuta versioonis
+- Netlify - hea, aga Cloudflare'is on konto juba
 - Vercel - sama mis Netlify
-- Cloudflare Pages - hea, aga GitHub on tuttavam
 
 ---
 
@@ -194,7 +196,7 @@ Sveltia CMS valiti, sest:
 | Nõue | Lahendus |
 |------|----------|
 | Tasuta | ✅ Kõik komponendid 100% tasuta |
-| Reklaamideta | ✅ GitHub Pages pole reklaame |
+| Reklaamideta | ✅ Cloudflare Pages pole reklaame |
 | Mitme admini | ✅ Piiramatu (Sveltia CMS) |
 | CODA.org disain | ✅ Täielik kontroll (Tailwind) |
 | Mobile-first | ✅ Tailwind built-in |

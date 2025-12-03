@@ -5,7 +5,7 @@ Modern, accessible website for Co-Dependents Anonymous (CODA) Estonia support gr
 [![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat&logo=astro&logoColor=white)](https://astro.build)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat&logo=github&logoColor=white)](https://pages.github.com/)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat&logo=cloudflare&logoColor=white)](https://pages.cloudflare.com/)
 
 ---
 
@@ -26,7 +26,7 @@ Modern, accessible website for Co-Dependents Anonymous (CODA) Estonia support gr
 - **[Sveltia CMS](https://github.com/sveltia/sveltia-cms)** - Git-based headless CMS
 - **[Tailwind CSS](https://tailwindcss.com)** - Utility-first CSS framework
 - **[Shadcn/ui](https://ui.shadcn.com/)** - Accessible UI components
-- **[GitHub Pages](https://pages.github.com/)** - Free hosting
+- **[Cloudflare Pages](https://pages.cloudflare.com/)** - Free hosting
 
 📄 **[Read full tech stack decision →](docs/TECH_STACK_DECISION.md)**
 

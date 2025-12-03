@@ -20,8 +20,10 @@
     - Daily Meditations kasutamine veebilehel ja e-mailiga
     - Kirjanduse müük ja levitamine
 
-- **Ootan grupi vastust** - Kirjutasin chatti (2025-10-31)
-  - Küsisin: kes registreerib koosoleku coda.org lehel?
+- **Ootan ajavööndi parandust coda.org lehel** - Saatsin paranduse (2025-12-03)
+  - Koosolek: https://coda.org/meeting/coda-kuressaare/
+  - Probleem: Ajavöönd oli vale (GMT +2 Kaliningrad/South Africa)
+  - Õige: GMT +3 (Baghdad, Riyadh, Moscow) - Eesti aeg
 
 - **Ootan Ande K vastust** - Kirjutasin veebilehe disaini kohta (2025-11-02)
   - Ta kujundab raamatuid → võiks olla pädev aitama
@@ -37,7 +39,6 @@
 - **Ootan CoDA Eesti rühma tagasisidet** - Saatsin TMC vestluse kokkuvõtte (2025-11-04)
   - Fail: [TMC_VESTLUSE_KOKKUVOTE.docx](docs/TMC_VESTLUSE_KOKKUVOTE.docx)
   - Ootan:
-    - Kes võtab vastutuse rühma registreerimise eest CoDA.org lehel
     - Kes on teine inimene translation agreement'i allkirjastamiseks (peab rääkima inglise keelt)
     - Millised materjalid tahame legaliseerida ja tulevikus tõlkida
 
@@ -161,7 +162,6 @@
 ### Pärast Valmimist
 
 - [ ] **Teata coda.org-ile** - Eesti veebilehe valmimisest
-- [ ] **Lisa koosolek coda.org lehele** - Vastutaja määramata
 
 ---
 
@@ -186,10 +186,9 @@
     - Läbipaistvus ja aruandlus
     - Milleks annetusi kasutada? (hosting, domeeninimi, materjalide trükkimine?)
 
-- [ ] **Registreerige koosolek coda.org lehel** (PRIORITEET KÕRGE)
-  - Link: https://coda.org/find-a-meeting/add-new-meeting/
-  - Vastutaja: [Määrata koosolekul]
-  - Märkus: See tuleb teha ENNE tõlkimisloa taotlemist (vaja group number'it)
+- [x] **Registreerige koosolek coda.org lehel** ✅ TEHTUD (2025-12-03)
+  - Link: https://coda.org/meeting/coda-kuressaare/
+  - Ajavööndi parandus saadetud (ootel)
 
 - [ ] **Tõlkimisloa taotlemine** (PRIORITEET KESKMINE-KÕRGE)
   - Link: https://coda.org/service-info/translation-mgmt-main-page/ ("Start Here")
@@ -231,6 +230,7 @@
 - [x] E-maili saatmine tmc@coda.org (2025-10-31) - 7 küsimust tõlkimise ja materjalide kohta
 - [x] Lighthouse testimine CODA riikide lehtedele (2025-10-29) - Teise AI agendi poolt
 - [x] Uurimustöö CODA rahvusvahelistest lehtedest ja tasuta platvormidest (2025-10-29)
+- [x] Koosoleku registreerimine coda.org lehel (2025-12-03) - https://coda.org/meeting/coda-kuressaare/
 
 ---
 
