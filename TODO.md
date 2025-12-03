@@ -29,13 +29,6 @@
   - Ta kujundab raamatuid → võiks olla pädev aitama
   - Küsisin: kas võin tema poole pöörduda disainiga seoses?
 
-- **Ootan õpetajate vastust** - Kirjutasin TA-23 õpetajatele (2025-11-04 11:40)
-  - Küsisin: kas CoDA.org veebilehe parandamine sobiks lõputööks?
-  - Kontekst: coda.org Lighthouse performance 3 (mobile), 33 (desktop) - kritiline
-  - Neil pole meeskonnas ressurssi, vabatahtlikud
-  - Tahaksin kohapeal arutada lõputöö nõudeid ja projekte
-  - Õpetajad: Andrus Naulainen, Gen Vikat, Karl Gregor Rauniste, Ralf Heinsoo
-
 - **Ootan CoDA Eesti rühma tagasisidet** - Saatsin TMC vestluse kokkuvõtte (2025-11-04)
   - Fail: [TMC_VESTLUSE_KOKKUVOTE.docx](docs/TMC_VESTLUSE_KOKKUVOTE.docx)
   - Ootan:
