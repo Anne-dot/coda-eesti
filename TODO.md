@@ -25,9 +25,9 @@
   - Probleem: Ajavöönd oli vale (GMT +2 Kaliningrad/South Africa)
   - Õige: GMT +3 (Baghdad, Riyadh, Moscow) - Eesti aeg
 
-- **Ootan Ande K vastust** - Kirjutasin veebilehe disaini kohta (2025-11-02)
-  - Ta kujundab raamatuid → võiks olla pädev aitama
-  - Küsisin: kas võin tema poole pöörduda disainiga seoses?
+- **Ande K lubas aidata** - Disaini tagasiside (2025-11-02)
+  - Ta kujundab raamatuid
+  - Annab tagasisidet mockup'ile koos teiste CODA liikmetega
 
 - **Ootan CoDA Eesti rühma tagasisidet** - Saatsin TMC vestluse kokkuvõtte (2025-11-04)
   - Fail: [TMC_VESTLUSE_KOKKUVOTE.docx](docs/TMC_VESTLUSE_KOKKUVOTE.docx)
@@ -91,6 +91,14 @@
   - Mobile-first approach
   - Accessibility requirements
 
+- [ ] **[Issue #20](https://github.com/Anne-dot/coda-eesti/issues/20): Update global.css with color palette**
+  - Sõltub: Issue #2, #3
+  - CSS muutujate uuendamine meie värvidega
+
+- [ ] **[Issue #19](https://github.com/Anne-dot/coda-eesti/issues/19): Create mockup**
+  - Sõltub: Issue #2, #3, #20
+  - Tagasiside: Ande K + CODA liikmed
+
 ---
 
 ### PRIORITEET 1.5: Milestone 1 - MVP Static Site
@@ -106,12 +114,6 @@
   - [x] [#16: Set up Prettier for code formatting](https://github.com/Anne-dot/coda-eesti/issues/16)
   - [x] [#17: Set up ESLint for code linting](https://github.com/Anne-dot/coda-eesti/issues/17)
   - [x] [#18: Create project folder structure](https://github.com/Anne-dot/coda-eesti/issues/18)
-
-- [ ] **CODA.org disaini analüüs**
-  - [ ] Värvikoodid
-  - [ ] Fondid
-  - [ ] Paigutus ja komponendid
-  - **Märkus:** Disaini uurimine ja inspireerimine on OK
 
 - [ ] **Leheküljed, mis EI VAJA CoDA materjale:**
   - [ ] Kontaktide leht (ainult koosoleku info - saame pärast registreerimist)

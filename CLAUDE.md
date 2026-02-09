@@ -2,29 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## MANDATORY: Read Global Instructions First
+## ⚠️ KOHUSTUSLIK
 
-**Before starting ANY work, you MUST:**
+**LOE KÕIGEPEALT:** `/home/d0021/Automation/05-ai-instructions/instructions.md`
 
-1. Read ALL files in `/home/d0021/Automation/ai-instructions/` directory
-2. Read them WITHOUT optimization (read full files, not summaries)
-3. Follow those instructions ALWAYS and CONTINUOUSLY throughout the session
-4. Those instructions are NON-NEGOTIABLE and apply to ALL work in this repository
+Ära jätka enne, kui oled lugenud ja järginud sealseid sessiooni samme.
 
-Global instruction files include:
-- `instructions.md` - Core working principles, coding standards, documentation rules, response format requirements
-- `eesti_keele_juhend.txt` - Estonian language usage rules
+Seejärel:
 
-## MANDATORY: Session Start Checklist
-
-### Permissions Test (KOHUSTUSLIK!)
-
-Pärast juhiste lugemist tee kohe test:
-1. Proovi käivitada lihtne bash käsk (nt `ls`)
-2. Anna kasutajale tagasisidet: kas süsteem nõudis kinnitust või said ilma selleta?
-3. Kui said ilma kinnituseta → HOIATA kasutajat, et seaded ei tööta
-
-**NB:** Kasutaja tahab ALATI kinnitada muudatusi enne nende tegemist.
+1. Permissions test: proovi `ls` ja anna tagasisidet, kas süsteem nõudis kinnitust
+2. Kui said ilma kinnituseta → HOIATA kasutajat
 
 ## Tööstiil (OLULINE)
 

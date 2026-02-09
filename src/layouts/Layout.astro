@@ -13,11 +13,55 @@ const { title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="CODA Eesti - Kaassõltuvuse Anonüümsed" />
+    <meta name="description" content="CODA Eesti - Anonüümsed kaassõltlased" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
     <title>{title}</title>
   </head>
-  <body>
-    <slot />
+  <body class="font-['Roboto',sans-serif] bg-background text-foreground">
+    <!-- Header -->
+    <header class="bg-accent text-accent-foreground md:sticky md:top-0 md:z-50">
+      <nav class="container mx-auto px-4 py-4 md:py-6">
+        <div class="flex items-center justify-between">
+          <a href="/" class="text-xl md:text-2xl font-bold">CODA Eesti</a>
+
+          <!-- Desktop nav -->
+          <div class="hidden md:flex gap-6">
+            <a href="/" class="hover:opacity-80">Avaleht</a>
+            <a href="/materjalid" class="hover:opacity-80">Materjalid</a>
+            <a href="/ressursid" class="hover:opacity-80">Ressursid</a>
+          </div>
+
+          <!-- Mobile hamburger -->
+          <button class="md:hidden p-2" aria-label="Ava menüü">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- Accent line like coda.org -->
+    <div class="h-1 bg-primary"></div>
+
+    <!-- Main content -->
+    <main>
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-muted text-muted-foreground py-8 mt-16">
+      <div class="container mx-auto px-4 text-center">
+        <p class="mb-2">CODA Eesti - Anonüümsed kaassõltlased</p>
+        <p class="text-sm mb-2">
+          <a href="https://coda.org" target="_blank" rel="noopener" class="hover:underline">coda.org</a>
+        </p>
+        <p class="text-xs text-muted-foreground/70">
+          Viimati uuendatud: veebruar 2026
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

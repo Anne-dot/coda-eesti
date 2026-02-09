@@ -3,12 +3,104 @@ import Layout from "../layouts/Layout.astro";
 import { Button } from "@/components/ui/button";
 ---
 
-<Layout title="CODA Eesti">
-  <main class="flex min-h-screen items-center justify-center bg-gray-100">
-    <div class="text-center">
-      <h1 class="mb-4 text-4xl font-bold text-blue-600">CODA Eesti</h1>
-      <p class="mb-4 text-gray-600">Anonüümsed kaassõltlased</p>
-      <Button client:load>Testi nuppu</Button>
+<Layout title="CODA Eesti - Anonüümsed kaassõltlased">
+  <!-- Hero section -->
+  <section class="py-10 px-4">
+    <div class="container mx-auto max-w-3xl text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">
+        Tere tulemast CODA Eesti lehele!
+      </h1>
+      <p class="text-xl text-muted-foreground">
+        Anonüümsed kaassõltlased on kogukond inimestele,
+        kes soovivad arendada terveid suhteid.
+      </p>
     </div>
-  </main>
+  </section>
+
+  <!-- Meeting info -->
+  <section class="py-12 px-4 bg-muted">
+    <div class="container mx-auto max-w-4xl">
+      <h2 class="text-3xl font-bold text-center mb-12">Koosolekud</h2>
+
+      <div class="bg-card rounded-lg p-8 shadow-sm">
+        <div class="grid md:grid-cols-2 gap-8 text-center">
+          <!-- Location -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Asukoht</h3>
+            <p class="mb-2"><strong>EELK Kuressaare kogudus</strong></p>
+            <p class="text-muted-foreground mb-2">
+              Kauba tn 5, Kuressaare
+            </p>
+            <p class="text-sm text-muted-foreground">
+              Keldrikorrus, AA sildi juures
+            </p>
+          </div>
+
+          <!-- Time -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Aeg</h3>
+            <p class="mb-2"><strong>Kolmapäeviti kell 18:30</strong></p>
+            <p class="text-muted-foreground">
+              Kestus 1 tund
+            </p>
+          </div>
+        </div>
+
+        <hr class="my-8 border-border" />
+
+        <!-- Hybrid info -->
+        <div class="text-center">
+          <h3 class="text-xl font-semibold mb-4">Hübriidkoosolek</h3>
+          <p class="text-muted-foreground mb-4">
+            Võimalik osaleda kohapeal või veebi teel.<br />
+            Füüsilise kohaletuleku plaanist anna palun eelnevalt teada.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-12 px-4">
+    <div class="container mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-bold mb-8">Võta ühendust</h2>
+      <p class="text-muted-foreground mb-8">
+        Kui soovid rohkem teada saada või koosolekuga liituda,
+        võta meiega ühendust.
+      </p>
+
+      <div class="max-w-xl mx-auto">
+        <p class="font-semibold mb-2">Pille</p>
+        <p class="text-muted-foreground">+372 523 7069</p>
+        <p class="text-muted-foreground">
+          alanonkuressaare [at] gmail [punkt] com
+        </p>
+      </div>
+
+      <p class="mt-8 text-sm text-muted-foreground">
+        Hoiame su anonüümsust
+      </p>
+    </div>
+  </section>
+
+  <!-- What is CODA -->
+  <section class="py-12 px-4 bg-muted">
+    <div class="container mx-auto max-w-3xl">
+      <h2 class="text-3xl font-bold text-center mb-8">Mis on CODA?</h2>
+      <div class="prose prose-lg mx-auto text-foreground">
+        <p class="mb-4">
+          <strong>Co-Dependents Anonymous (CODA)</strong> on kogukond meestele ja
+          naistele, kelle ühine eesmärk on arendada terveid suhteid.
+        </p>
+        <p class="mb-4">
+          Meie ainuke kuuluvuse nõue on soov terveteks ja armastavateks
+          suheteks endaga ja teistega.
+        </p>
+        <p>
+          CODA põhineb 12 sammu programmil, mis on kohandatud Anonüümsete
+          Alkohoolikute programmist.
+        </p>
+      </div>
+    </div>
+  </section>
 </Layout>
