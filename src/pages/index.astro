@@ -1,21 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Button } from "@/components/ui/button";
+import PageHeader from "../components/PageHeader.astro";
 ---
 
 <Layout title="CoDA Eesti - Anonüümsed kaassõltlased">
-  <!-- Hero section -->
-  <section class="py-10 px-4">
-    <div class="container mx-auto max-w-3xl text-center">
-      <h1 class="text-4xl md:text-5xl font-bold mb-6">
-        Tere tulemast CoDA Eesti lehele!
-      </h1>
-      <p class="text-xl text-muted-foreground">
-        Anonüümsed kaassõltlased on kogukond inimestele,
-        kes soovivad arendada terveid suhteid.
-      </p>
-    </div>
-  </section>
+  <PageHeader
+    title="Tere tulemast CoDA Eesti lehele!"
+    description="Anonüümsed kaassõltlased on kogukond inimestele, kes soovivad arendada terveid suhteid."
+  />
 
   <!-- Meeting info -->
   <section class="py-12 px-4 bg-muted">
@@ -62,7 +54,7 @@ import { Button } from "@/components/ui/button";
   <section class="py-12 px-4 bg-muted">
     <div class="container mx-auto max-w-3xl">
       <h2 class="text-3xl font-bold text-center mb-8">Mis on CoDA?</h2>
-      <div class="prose prose-lg mx-auto text-foreground">
+      <div class="prose prose-lg mx-auto text-foreground text-justify">
         <p class="mb-4">
           <strong>Co-Dependents Anonymous (CoDA)</strong> on kogukond meestele ja
           naistele, kelle ühine eesmärk on arendada terveid suhteid.
