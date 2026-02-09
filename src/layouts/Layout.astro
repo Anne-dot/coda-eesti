@@ -28,7 +28,7 @@ const base = import.meta.env.BASE_URL;
       <Astronav closeOnClick>
         <nav class="container mx-auto px-4 py-4 md:py-6">
           <div class="flex w-full items-center justify-between">
-            <a href={base} class="text-xl md:text-2xl font-bold">CoDA Eesti</a>
+            <a href={`${base}/`} class="text-xl md:text-2xl font-bold">CoDA Eesti</a>
 
             <div class="block md:hidden">
               <MenuIcon class="w-6 h-6 text-foreground">
@@ -47,9 +47,9 @@ const base = import.meta.env.BASE_URL;
 
             <MenuItems class="hidden md:flex md:gap-6 md:items-center">
               <ul class="flex flex-col md:flex-row md:gap-6 mt-4 md:mt-0">
-                <li><a href={base} class="block py-2 hover:opacity-80">Avaleht</a></li>
-                <li><a href={`${base}materjalid/`} class="block py-2 hover:opacity-80">Materjalid</a></li>
-                <li><a href={`${base}ressursid/`} class="block py-2 hover:opacity-80">Ressursid</a></li>
+                <li><a href={`${base}/`} class="block py-2 hover:opacity-80">Avaleht</a></li>
+                <li><a href={`${base}/materjalid/`} class="block py-2 hover:opacity-80">Materjalid</a></li>
+                <li><a href={`${base}/ressursid/`} class="block py-2 hover:opacity-80">Ressursid</a></li>
               </ul>
             </MenuItems>
           </div>
